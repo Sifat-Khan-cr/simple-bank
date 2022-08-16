@@ -24,3 +24,7 @@ document.getElementById('withdraw-submit').addEventListener('click', function ()
     document.getElementById('balance').innerText = balanceTotal - withdraw;
     document.getElementById('withdraw-amount').value = "";
 })
+document.getElementById('logout').addEventListener('click', function () {
+    window.location.href = './index.html';
+
+})
